@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "New Tab Blank",
+    "author": "Jun Ivanne Dalman",
+    "version": "1.0.0",
+    "description": "Replace your new tab with nothing",
+    "chrome_url_overrides": {
+        "newtab": "./newtab.html"
+    },
+    "permissions": [
+        "storage"
+    ],
+    "action": {
+        "default_popup": "./popup.html",
+        "default_title": "New Tab Blank"
+    }
+}
